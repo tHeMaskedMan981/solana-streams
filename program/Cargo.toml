@@ -1,0 +1,27 @@
+
+[package]
+name = "solana-streams"
+version = "0.0.1"
+description = "Program to enable streaming payments in Solana"
+authors = ["Akash Kumar <akash.minato@gmail.com>"]
+repository = "https://github.com/solana-labs/solana"
+license = "Apache-2.0"
+homepage = "https://solana.com/"
+edition = "2018"
+
+[features]
+no-entrypoint = []
+
+[dependencies]
+borsh = "0.9.1"
+borsh-derive = "0.9.1"
+thiserror = "1.0.24"
+solana-program = "=1.7.9"
+
+[dev-dependencies]
+solana-program-test = "=1.7.9"
+solana-sdk = "=1.7.9"
+
+[lib]
+name = "solanastreams"
+crate-type = ["cdylib", "lib"]
