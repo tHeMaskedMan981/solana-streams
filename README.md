@@ -1,3 +1,4 @@
+
 <p align="center">
   <a href="https://solana.com">
     <img alt="Solana" src="https://i.imgur.com/uBVzyX3.png" width="250" />
@@ -21,6 +22,9 @@ The project comprises of:
 
 * An on-chain streaming payments program (program/)
 * A react client application to demonstrate the working of the program with an easy to use UI (client/) 
+
+Demo video is available <a href="https://vimeo.com/597140717"> here</a>.
+Devfolio Submission is available <a href="https://devfolio.co/submissions/solana-streams-c967" >here</a> 
 
 ## Motivation
 

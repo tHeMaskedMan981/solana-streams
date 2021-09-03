@@ -119,7 +119,7 @@ export const HomeView = () => {
     setLoader(false);
     Swal.fire({
       title: 'Success!',
-      text: 'Stream created successfully',
+      text: 'Tokens withdrawn successfully',
       icon: 'success',
       confirmButtonText: 'Close'
     })
